@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E625DB131C2A907200F1F87A /* MusicPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E625DB121C2A907200F1F87A /* MusicPlayerViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E625DB161C2A925900F1F87A /* songPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = E625DB151C2A925900F1F87A /* songPlayView.m */; settings = {ASSET_TAGS = (); }; };
+		E63E2C0A1C27EED200579FAA /* MusicDataHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = E63E2C051C27EED200579FAA /* MusicDataHandle.m */; settings = {ASSET_TAGS = (); }; };
+		E63E2C0B1C27EED200579FAA /* MusicPlayerHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = E63E2C071C27EED200579FAA /* MusicPlayerHandle.m */; settings = {ASSET_TAGS = (); }; };
+		E63E2C0C1C27EED200579FAA /* LyricHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = E63E2C091C27EED200579FAA /* LyricHandle.m */; settings = {ASSET_TAGS = (); }; };
+		E63E2C0F1C27EEFC00579FAA /* MusicListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63E2C0E1C27EEFC00579FAA /* MusicListViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E63E2C151C27F15F00579FAA /* MusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E63E2C121C27F15F00579FAA /* MusicModel.m */; settings = {ASSET_TAGS = (); }; };
+		E63E2C161C27F15F00579FAA /* LyricModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E63E2C141C27F15F00579FAA /* LyricModel.m */; settings = {ASSET_TAGS = (); }; };
+		E63E2C191C27F1B700579FAA /* MusicListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E63E2C181C27F1B700579FAA /* MusicListTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		E63E2C1B1C27F2AD00579FAA /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63E2C1A1C27F2AD00579FAA /* SDWebImage.framework */; };
+		E63E2C1D1C27F65D00579FAA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E63E2C1C1C27F65D00579FAA /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		E63E2C1F1C27F79300579FAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E63E2C1E1C27F79300579FAA /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		E63E2C211C27F95A00579FAA /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63E2C201C27F95A00579FAA /* MBProgressHUD.framework */; };
+		E69D7ECF1C2690B0008E474B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E69D7ECE1C2690B0008E474B /* main.m */; };
+		E69D7ED21C2690B0008E474B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E69D7ED11C2690B0008E474B /* AppDelegate.m */; };
+		E69D7ED41C2690B0008E474B /* Nathan Music Player-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = E69D7ED31C2690B0008E474B /* Nathan Music Player-Prefix.pch */; };
+		E69D7ED61C2690B0008E474B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E69D7ED51C2690B0008E474B /* Assets.xcassets */; };
+		E69D7ED91C2690B0008E474B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E69D7ED71C2690B0008E474B /* LaunchScreen.storyboard */; };
+		E69D7F091C26987F008E474B /* SearchMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E69D7F081C26987F008E474B /* SearchMusicViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E69D7F0C1C269895008E474B /* MyMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E69D7F0B1C269895008E474B /* MyMusicViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E69D7F0F1C2698AB008E474B /* ShareMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E69D7F0E1C2698AB008E474B /* ShareMusicViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E69D7F121C2698C2008E474B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E69D7F111C2698C2008E474B /* LoginViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E69D7F181C269988008E474B /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E69D7F171C269988008E474B /* RootTabBarController.m */; settings = {ASSET_TAGS = (); }; };
+		E69D7F3D1C27D88F008E474B /* music2.png in Resources */ = {isa = PBXBuildFile; fileRef = E69D7F351C27D88F008E474B /* music2.png */; settings = {ASSET_TAGS = (); }; };
+		E69D7F3E1C27D88F008E474B /* login2.png in Resources */ = {isa = PBXBuildFile; fileRef = E69D7F361C27D88F008E474B /* login2.png */; settings = {ASSET_TAGS = (); }; };
+		E69D7F3F1C27D88F008E474B /* share2.png in Resources */ = {isa = PBXBuildFile; fileRef = E69D7F371C27D88F008E474B /* share2.png */; settings = {ASSET_TAGS = (); }; };
+		E69D7F401C27D88F008E474B /* login1.png in Resources */ = {isa = PBXBuildFile; fileRef = E69D7F381C27D88F008E474B /* login1.png */; settings = {ASSET_TAGS = (); }; };
+		E69D7F411C27D88F008E474B /* music1.png in Resources */ = {isa = PBXBuildFile; fileRef = E69D7F391C27D88F008E474B /* music1.png */; settings = {ASSET_TAGS = (); }; };
+		E69D7F421C27D88F008E474B /* share1.png in Resources */ = {isa = PBXBuildFile; fileRef = E69D7F3A1C27D88F008E474B /* share1.png */; settings = {ASSET_TAGS = (); }; };
+		E69D7F431C27D88F008E474B /* search1.png in Resources */ = {isa = PBXBuildFile; fileRef = E69D7F3B1C27D88F008E474B /* search1.png */; settings = {ASSET_TAGS = (); }; };
+		E69D7F441C27D88F008E474B /* search2.png in Resources */ = {isa = PBXBuildFile; fileRef = E69D7F3C1C27D88F008E474B /* search2.png */; settings = {ASSET_TAGS = (); }; };
+		E6D8AE89023450CF934FE92A /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9D909698ACE963EA41B019 /* Pods.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47298F0C6DF88F1831772CC0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6998A7799B8446F80E081977 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		DC9D909698ACE963EA41B019 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E625DB111C2A907200F1F87A /* MusicPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayerViewController.h; sourceTree = "<group>"; };
+		E625DB121C2A907200F1F87A /* MusicPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerViewController.m; sourceTree = "<group>"; };
+		E625DB141C2A925900F1F87A /* songPlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = songPlayView.h; sourceTree = "<group>"; };
+		E625DB151C2A925900F1F87A /* songPlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = songPlayView.m; sourceTree = "<group>"; };
+		E63E2C041C27EED200579FAA /* MusicDataHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicDataHandle.h; sourceTree = "<group>"; };
+		E63E2C051C27EED200579FAA /* MusicDataHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicDataHandle.m; sourceTree = "<group>"; };
+		E63E2C061C27EED200579FAA /* MusicPlayerHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayerHandle.h; sourceTree = "<group>"; };
+		E63E2C071C27EED200579FAA /* MusicPlayerHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerHandle.m; sourceTree = "<group>"; };
+		E63E2C081C27EED200579FAA /* LyricHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyricHandle.h; sourceTree = "<group>"; };
+		E63E2C091C27EED200579FAA /* LyricHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyricHandle.m; sourceTree = "<group>"; };
+		E63E2C0D1C27EEFC00579FAA /* MusicListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicListViewController.h; sourceTree = "<group>"; };
+		E63E2C0E1C27EEFC00579FAA /* MusicListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicListViewController.m; sourceTree = "<group>"; };
+		E63E2C111C27F15F00579FAA /* MusicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicModel.h; sourceTree = "<group>"; };
+		E63E2C121C27F15F00579FAA /* MusicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicModel.m; sourceTree = "<group>"; };
+		E63E2C131C27F15F00579FAA /* LyricModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyricModel.h; sourceTree = "<group>"; };
+		E63E2C141C27F15F00579FAA /* LyricModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyricModel.m; sourceTree = "<group>"; };
+		E63E2C171C27F1B700579FAA /* MusicListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicListTableViewCell.h; sourceTree = "<group>"; };
+		E63E2C181C27F1B700579FAA /* MusicListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicListTableViewCell.m; sourceTree = "<group>"; };
+		E63E2C1A1C27F2AD00579FAA /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "Pods/../build/Debug-iphoneos/SDWebImage.framework"; sourceTree = "<group>"; };
+		E63E2C1C1C27F65D00579FAA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E63E2C1E1C27F79300579FAA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		E63E2C201C27F95A00579FAA /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MBProgressHUD.framework; path = "Pods/../build/Debug-iphoneos/MBProgressHUD.framework"; sourceTree = "<group>"; };
+		E69D7ECA1C2690B0008E474B /* Nathan Music Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nathan Music Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E69D7ECE1C2690B0008E474B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E69D7ED01C2690B0008E474B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E69D7ED11C2690B0008E474B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E69D7ED31C2690B0008E474B /* Nathan Music Player-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nathan Music Player-Prefix.pch"; sourceTree = "<group>"; };
+		E69D7ED51C2690B0008E474B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E69D7ED81C2690B0008E474B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E69D7F071C26987F008E474B /* SearchMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchMusicViewController.h; sourceTree = "<group>"; };
+		E69D7F081C26987F008E474B /* SearchMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchMusicViewController.m; sourceTree = "<group>"; };
+		E69D7F0A1C269895008E474B /* MyMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMusicViewController.h; sourceTree = "<group>"; };
+		E69D7F0B1C269895008E474B /* MyMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMusicViewController.m; sourceTree = "<group>"; };
+		E69D7F0D1C2698AB008E474B /* ShareMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareMusicViewController.h; sourceTree = "<group>"; };
+		E69D7F0E1C2698AB008E474B /* ShareMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareMusicViewController.m; sourceTree = "<group>"; };
+		E69D7F101C2698C2008E474B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		E69D7F111C2698C2008E474B /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		E69D7F161C269988008E474B /* RootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabBarController.h; sourceTree = "<group>"; };
+		E69D7F171C269988008E474B /* RootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTabBarController.m; sourceTree = "<group>"; };
+		E69D7F191C2789E2008E474B /* Headers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Headers.h; sourceTree = "<group>"; };
+		E69D7F351C27D88F008E474B /* music2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music2.png; sourceTree = "<group>"; };
+		E69D7F361C27D88F008E474B /* login2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login2.png; sourceTree = "<group>"; };
+		E69D7F371C27D88F008E474B /* share2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share2.png; sourceTree = "<group>"; };
+		E69D7F381C27D88F008E474B /* login1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login1.png; sourceTree = "<group>"; };
+		E69D7F391C27D88F008E474B /* music1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music1.png; sourceTree = "<group>"; };
+		E69D7F3A1C27D88F008E474B /* share1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share1.png; sourceTree = "<group>"; };
+		E69D7F3B1C27D88F008E474B /* search1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search1.png; sourceTree = "<group>"; };
+		E69D7F3C1C27D88F008E474B /* search2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E69D7EC71C2690B0008E474B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63E2C211C27F95A00579FAA /* MBProgressHUD.framework in Frameworks */,
+				E63E2C1B1C27F2AD00579FAA /* SDWebImage.framework in Frameworks */,
+				E6D8AE89023450CF934FE92A /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29392D59FD5388BD1038084B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47298F0C6DF88F1831772CC0 /* Pods.debug.xcconfig */,
+				6998A7799B8446F80E081977 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E56333DACFF3ECC9B6AA16EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E63E2C201C27F95A00579FAA /* MBProgressHUD.framework */,
+				E63E2C1A1C27F2AD00579FAA /* SDWebImage.framework */,
+				DC9D909698ACE963EA41B019 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E63E2C031C27EEC000579FAA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E63E2C041C27EED200579FAA /* MusicDataHandle.h */,
+				E63E2C051C27EED200579FAA /* MusicDataHandle.m */,
+				E63E2C061C27EED200579FAA /* MusicPlayerHandle.h */,
+				E63E2C071C27EED200579FAA /* MusicPlayerHandle.m */,
+				E63E2C081C27EED200579FAA /* LyricHandle.h */,
+				E63E2C091C27EED200579FAA /* LyricHandle.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		E63E2C101C27F14F00579FAA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E63E2C111C27F15F00579FAA /* MusicModel.h */,
+				E63E2C121C27F15F00579FAA /* MusicModel.m */,
+				E63E2C131C27F15F00579FAA /* LyricModel.h */,
+				E63E2C141C27F15F00579FAA /* LyricModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E69D7EC11C2690B0008E474B = {
+			isa = PBXGroup;
+			children = (
+				E69D7ECC1C2690B0008E474B /* Nathan Music Player */,
+				E69D7ECB1C2690B0008E474B /* Products */,
+				29392D59FD5388BD1038084B /* Pods */,
+				E56333DACFF3ECC9B6AA16EF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E69D7ECB1C2690B0008E474B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E69D7ECA1C2690B0008E474B /* Nathan Music Player.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E69D7ECC1C2690B0008E474B /* Nathan Music Player */ = {
+			isa = PBXGroup;
+			children = (
+				E69D7F1B1C27CF5D008E474B /* Images */,
+				E69D7F1A1C278A17008E474B /* Main */,
+				E69D7F001C269674008E474B /* Tools */,
+				E69D7EE01C2690C2008E474B /* SearchMusic */,
+				E69D7EE11C2690FA008E474B /* MyMusic */,
+				E69D7EE81C2691F6008E474B /* ShareMusic */,
+				E69D7EE31C269110008E474B /* Login */,
+				E69D7ECD1C2690B0008E474B /* Supporting Files */,
+			);
+			path = "Nathan Music Player";
+			sourceTree = "<group>";
+		};
+		E69D7ECD1C2690B0008E474B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E69D7ECE1C2690B0008E474B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E69D7EE01C2690C2008E474B /* SearchMusic */ = {
+			isa = PBXGroup;
+			children = (
+				E69D7EF01C26924F008E474B /* C */,
+				E69D7EEF1C26924A008E474B /* V */,
+				E69D7EEE1C269245008E474B /* M */,
+			);
+			name = SearchMusic;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E69D7EE11C2690FA008E474B /* MyMusic */ = {
+			isa = PBXGroup;
+			children = (
+				E69D7EED1C26923C008E474B /* C */,
+				E69D7EEC1C269237008E474B /* V */,
+				E69D7EEB1C269232008E474B /* M */,
+			);
+			name = MyMusic;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E69D7EE31C269110008E474B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E69D7EE61C2691EA008E474B /* C */,
+				E69D7EE51C2691E5008E474B /* V */,
+				E69D7EE41C2691E0008E474B /* M */,
+			);
+			name = Login;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E69D7EE41C2691E0008E474B /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = M;
+			sourceTree = "<group>";
+		};
+		E69D7EE51C2691E5008E474B /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = V;
+			sourceTree = "<group>";
+		};
+		E69D7EE61C2691EA008E474B /* C */ = {
+			isa = PBXGroup;
+			children = (
+				E69D7F101C2698C2008E474B /* LoginViewController.h */,
+				E69D7F111C2698C2008E474B /* LoginViewController.m */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		E69D7EE71C2691F0008E474B /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = M;
+			sourceTree = "<group>";
+		};
+		E69D7EE81C2691F6008E474B /* ShareMusic */ = {
+			isa = PBXGroup;
+			children = (
+				E69D7EEA1C269224008E474B /* C */,
+				E69D7EE91C26921F008E474B /* V */,
+				E69D7EE71C2691F0008E474B /* M */,
+			);
+			name = ShareMusic;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E69D7EE91C26921F008E474B /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = V;
+			sourceTree = "<group>";
+		};
+		E69D7EEA1C269224008E474B /* C */ = {
+			isa = PBXGroup;
+			children = (
+				E69D7F0D1C2698AB008E474B /* ShareMusicViewController.h */,
+				E69D7F0E1C2698AB008E474B /* ShareMusicViewController.m */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		E69D7EEB1C269232008E474B /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = M;
+			sourceTree = "<group>";
+		};
+		E69D7EEC1C269237008E474B /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = V;
+			sourceTree = "<group>";
+		};
+		E69D7EED1C26923C008E474B /* C */ = {
+			isa = PBXGroup;
+			children = (
+				E69D7F0A1C269895008E474B /* MyMusicViewController.h */,
+				E69D7F0B1C269895008E474B /* MyMusicViewController.m */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		E69D7EEE1C269245008E474B /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = M;
+			sourceTree = "<group>";
+		};
+		E69D7EEF1C26924A008E474B /* V */ = {
+			isa = PBXGroup;
+			children = (
+				E63E2C171C27F1B700579FAA /* MusicListTableViewCell.h */,
+				E63E2C181C27F1B700579FAA /* MusicListTableViewCell.m */,
+				E625DB141C2A925900F1F87A /* songPlayView.h */,
+				E625DB151C2A925900F1F87A /* songPlayView.m */,
+			);
+			name = V;
+			sourceTree = "<group>";
+		};
+		E69D7EF01C26924F008E474B /* C */ = {
+			isa = PBXGroup;
+			children = (
+				E625DB111C2A907200F1F87A /* MusicPlayerViewController.h */,
+				E625DB121C2A907200F1F87A /* MusicPlayerViewController.m */,
+				E63E2C0D1C27EEFC00579FAA /* MusicListViewController.h */,
+				E63E2C0E1C27EEFC00579FAA /* MusicListViewController.m */,
+				E69D7F071C26987F008E474B /* SearchMusicViewController.h */,
+				E69D7F081C26987F008E474B /* SearchMusicViewController.m */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		E69D7F001C269674008E474B /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				E63E2C101C27F14F00579FAA /* Models */,
+				E63E2C031C27EEC000579FAA /* Helpers */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		E69D7F1A1C278A17008E474B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E63E2C1E1C27F79300579FAA /* Main.storyboard */,
+				E69D7ED01C2690B0008E474B /* AppDelegate.h */,
+				E69D7ED11C2690B0008E474B /* AppDelegate.m */,
+				E69D7F191C2789E2008E474B /* Headers.h */,
+				E69D7F161C269988008E474B /* RootTabBarController.h */,
+				E69D7F171C269988008E474B /* RootTabBarController.m */,
+				E69D7ED31C2690B0008E474B /* Nathan Music Player-Prefix.pch */,
+				E69D7ED51C2690B0008E474B /* Assets.xcassets */,
+				E69D7ED71C2690B0008E474B /* LaunchScreen.storyboard */,
+				E63E2C1C1C27F65D00579FAA /* Info.plist */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		E69D7F1B1C27CF5D008E474B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E69D7F1C1C27CF64008E474B /* TabBar */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		E69D7F1C1C27CF64008E474B /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				E69D7F351C27D88F008E474B /* music2.png */,
+				E69D7F361C27D88F008E474B /* login2.png */,
+				E69D7F371C27D88F008E474B /* share2.png */,
+				E69D7F381C27D88F008E474B /* login1.png */,
+				E69D7F391C27D88F008E474B /* music1.png */,
+				E69D7F3A1C27D88F008E474B /* share1.png */,
+				E69D7F3B1C27D88F008E474B /* search1.png */,
+				E69D7F3C1C27D88F008E474B /* search2.png */,
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E69D7EC91C2690B0008E474B /* Nathan Music Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E69D7EDD1C2690B0008E474B /* Build configuration list for PBXNativeTarget "Nathan Music Player" */;
+			buildPhases = (
+				9247917382D54B02CF1921FD /* Check Pods Manifest.lock */,
+				E69D7EC61C2690B0008E474B /* Sources */,
+				E69D7EC71C2690B0008E474B /* Frameworks */,
+				E69D7EC81C2690B0008E474B /* Resources */,
+				9D795A78ED40DB17DE32EE04 /* Embed Pods Frameworks */,
+				4F0039B61F047E2309912951 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nathan Music Player";
+			productName = "Nathan Music Player";
+			productReference = E69D7ECA1C2690B0008E474B /* Nathan Music Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E69D7EC21C2690B0008E474B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Nthan;
+				TargetAttributes = {
+					E69D7EC91C2690B0008E474B = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = E69D7EC51C2690B0008E474B /* Build configuration list for PBXProject "Nathan Music Player" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E69D7EC11C2690B0008E474B;
+			productRefGroup = E69D7ECB1C2690B0008E474B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E69D7EC91C2690B0008E474B /* Nathan Music Player */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E69D7EC81C2690B0008E474B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E69D7F3D1C27D88F008E474B /* music2.png in Resources */,
+				E69D7F441C27D88F008E474B /* search2.png in Resources */,
+				E69D7ED91C2690B0008E474B /* LaunchScreen.storyboard in Resources */,
+				E69D7F421C27D88F008E474B /* share1.png in Resources */,
+				E69D7F3E1C27D88F008E474B /* login2.png in Resources */,
+				E69D7ED61C2690B0008E474B /* Assets.xcassets in Resources */,
+				E69D7F431C27D88F008E474B /* search1.png in Resources */,
+				E63E2C1F1C27F79300579FAA /* Main.storyboard in Resources */,
+				E69D7F3F1C27D88F008E474B /* share2.png in Resources */,
+				E63E2C1D1C27F65D00579FAA /* Info.plist in Resources */,
+				E69D7F401C27D88F008E474B /* login1.png in Resources */,
+				E69D7ED41C2690B0008E474B /* Nathan Music Player-Prefix.pch in Resources */,
+				E69D7F411C27D88F008E474B /* music1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F0039B61F047E2309912951 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9247917382D54B02CF1921FD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D795A78ED40DB17DE32EE04 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E69D7EC61C2690B0008E474B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E69D7F181C269988008E474B /* RootTabBarController.m in Sources */,
+				E625DB161C2A925900F1F87A /* songPlayView.m in Sources */,
+				E63E2C151C27F15F00579FAA /* MusicModel.m in Sources */,
+				E69D7ED21C2690B0008E474B /* AppDelegate.m in Sources */,
+				E69D7F091C26987F008E474B /* SearchMusicViewController.m in Sources */,
+				E63E2C0C1C27EED200579FAA /* LyricHandle.m in Sources */,
+				E63E2C161C27F15F00579FAA /* LyricModel.m in Sources */,
+				E63E2C0A1C27EED200579FAA /* MusicDataHandle.m in Sources */,
+				E69D7F0C1C269895008E474B /* MyMusicViewController.m in Sources */,
+				E63E2C0F1C27EEFC00579FAA /* MusicListViewController.m in Sources */,
+				E63E2C191C27F1B700579FAA /* MusicListTableViewCell.m in Sources */,
+				E69D7ECF1C2690B0008E474B /* main.m in Sources */,
+				E625DB131C2A907200F1F87A /* MusicPlayerViewController.m in Sources */,
+				E63E2C0B1C27EED200579FAA /* MusicPlayerHandle.m in Sources */,
+				E69D7F121C2698C2008E474B /* LoginViewController.m in Sources */,
+				E69D7F0F1C2698AB008E474B /* ShareMusicViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E69D7ED71C2690B0008E474B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E69D7ED81C2690B0008E474B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E69D7EDB1C2690B0008E474B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E69D7EDC1C2690B0008E474B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E69D7EDE1C2690B0008E474B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47298F0C6DF88F1831772CC0 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = "Nathan Music Player/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nthan.Nathan-Music-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E69D7EDF1C2690B0008E474B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6998A7799B8446F80E081977 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = "Nathan Music Player/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nthan.Nathan-Music-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E69D7EC51C2690B0008E474B /* Build configuration list for PBXProject "Nathan Music Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E69D7EDB1C2690B0008E474B /* Debug */,
+				E69D7EDC1C2690B0008E474B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E69D7EDD1C2690B0008E474B /* Build configuration list for PBXNativeTarget "Nathan Music Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E69D7EDE1C2690B0008E474B /* Debug */,
+				E69D7EDF1C2690B0008E474B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E69D7EC21C2690B0008E474B /* Project object */;
+}
